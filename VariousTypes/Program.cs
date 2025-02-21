@@ -19,6 +19,11 @@ namespace VariousTypes
             char carater2 = '\u2665';
             char carater3 = '\u27A4';
             char carater4 = '\u2756';
+
+            float numero_real1 = 1.234f;
+            double numero_real2 = 123456789.987654321;
+            decimal numero_real3 = 123456789.987654321m;
+
             Console.WriteLine("sbyte: " + numero1);
             Console.WriteLine("short: " + numero2);
             Console.WriteLine("int: " + numero3);
@@ -31,6 +36,9 @@ namespace VariousTypes
             Console.WriteLine("coracao: " + carater2);
             Console.WriteLine("seta: " + carater3);
             Console.WriteLine("simbolo: " + carater4);
+            Console.WriteLine("float: " + numero_real1);
+            Console.WriteLine("double: " + numero_real2);
+            Console.WriteLine("decimal: " + numero_real3);
         }
     }
 }
