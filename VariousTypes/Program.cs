@@ -24,6 +24,11 @@ namespace VariousTypes
             double numero_real2 = 123456789.987654321;
             decimal numero_real3 = 123456789.987654321m;
 
+            bool condicao1 = false;
+            condicao1 = 4 < 3;
+            bool condicao2 = true;
+            condicao2 = 10 > 2;
+
             Console.WriteLine("sbyte: " + numero1);
             Console.WriteLine("short: " + numero2);
             Console.WriteLine("int: " + numero3);
@@ -39,6 +44,8 @@ namespace VariousTypes
             Console.WriteLine("float: " + numero_real1);
             Console.WriteLine("double: " + numero_real2);
             Console.WriteLine("decimal: " + numero_real3);
+            Console.WriteLine("condição 1: " + condicao1);
+            Console.WriteLine("condição 2: " + condicao2);
         }
     }
 }
